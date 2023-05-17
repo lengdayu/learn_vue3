@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/views/03_模板语法和指令.vue'
+// import Home from '@/views/03_模板语法和指令.vue'
+import Home from '@/views/04_ref、reactive、toref.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
